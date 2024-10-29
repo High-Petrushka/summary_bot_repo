@@ -18,6 +18,7 @@ bot.command('help', async (ctx) => {
 	await ctx.reply('/start - begin conversation\n/help - see available commands\n/react - get a reaction');
 });
 
+// Randomly sends prepared emojis to the user on the command "/react"
 bot.command('react', async (ctx) => {
 	let reactionKey = Math.floor(Math.random() * emojiSet.length);
 	console.log(reactionKey)
