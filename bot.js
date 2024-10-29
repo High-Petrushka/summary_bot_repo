@@ -1,7 +1,7 @@
 const { Bot } = require('grammy');
 const { emojiParser, Reactions } = require('@grammyjs/emoji');
 
-const bot = new Bot('7081370541:AAHbwRj2bPR2iYIYgc7OmyuvEHRGTU0TKwE');
+const bot = new Bot('');
 bot.use(emojiParser());
 
 // The list with different emoji names that will be used in a random order
